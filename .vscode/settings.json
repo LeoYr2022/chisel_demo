@@ -4,5 +4,8 @@
   "editor.fontWeight": "400",
   "editor.lineHeight": 22,
   "editor.letterSpacing": 0.3,
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "files.watcherExclude": {
+    "**/target": true
+  }
 }
