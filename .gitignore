@@ -1,6 +1,2 @@
-target/
-project/target/
-project/project/
-verilog_output/
 .bsp/
 .metals/
