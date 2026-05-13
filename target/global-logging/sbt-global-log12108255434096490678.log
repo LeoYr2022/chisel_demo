@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.2 (Red Hat, Inc. Java 11.0.25)
+[debug] Load.defaultLoad until apply took 253.386484ms
+[debug]           Load.loadUnit: plugins took 111.356014ms
+[debug]           Load.loadUnit: defsScala took 0.310956ms
+[debug] [Loading] Scanning directory /root/workspace/chisel_demo/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /root/workspace/chisel_demo/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 62.426527 ms
+[debug]               Load.resolveProject(chisel_demo-build) took 126.198074ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id chisel_demo-build, base: /root/workspace/chisel_demo/project, plugins: List(<none>))) took 235.281971ms
+[debug] [Loading] Done in /root/workspace/chisel_demo/project, returning: (chisel_demo-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 295.224966ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.258415ms
+[debug]         Load.loadUnit(file:/root/workspace/chisel_demo/project/, ...) took 412.351542ms
+[debug]       Load.apply: load took 780.540332ms
+[debug]       Load.apply: resolveProjects took 8.89196ms
+[debug]       Load.apply: finalTransforms took 89.193252ms
+[debug]       Load.apply: config.delegates took 7.691046ms
+[debug]       Load.apply: Def.make(settings)... took 834.349596ms
+[debug]       Load.apply: structureIndex took 198.138834ms
+[debug]       Load.apply: mkStreams took 2.574251ms
+[info] loading project definition from /root/workspace/chisel_demo/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3436.011072ms
+[debug]     Load.loadUnit: defsScala took 0.004007ms
+[debug] [Loading] Scanning directory /root/workspace/chisel_demo
+[debug]       Load.loadUnit: mkEval took 8.529658ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.856217 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.647317ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /root/workspace/chisel_demo, plugins: List(<none>))) took 5.560542ms
+[debug] [Loading] Done in /root/workspace/chisel_demo, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 251.242668ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.844102ms
+[debug]   Load.loadUnit(file:/root/workspace/chisel_demo/, ...) took 3693.233164ms
+[debug] Load.apply: load took 3743.147554ms
+[debug] Load.apply: resolveProjects took 0.126973ms
+[debug] Load.apply: finalTransforms took 15.965234ms
+[debug] Load.apply: config.delegates took 0.399945ms
+[debug] Load.apply: Def.make(settings)... took 170.12306ms
+[debug] Load.apply: structureIndex took 32.28546ms
+[debug] Load.apply: mkStreams took 0.00363ms
+[info] set current project to chisel_demo (in build file:/root/workspace/chisel_demo/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[info] Executing in batch mode. For better performance use sbt's shell
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /root/workspace/chisel_demo/target/scala-2.13/classes ...

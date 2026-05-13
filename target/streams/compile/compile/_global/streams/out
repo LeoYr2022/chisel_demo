@@ -1,0 +1,6 @@
+[error] /root/workspace/chisel_demo/src/main/scala/Adder2.scala:18:8: type mismatch;
+[error]  found   : () => Adder2
+[error]  required: chisel3.RawModule
+[error]     () => new Adder2,
+[error]        ^
+[error] one error found

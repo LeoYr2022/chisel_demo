@@ -1,0 +1,13 @@
+[debug] Created transactional ClassFileManager with tempDir = /root/workspace/chisel_demo/target/scala-2.13/classes.bak
+[debug] About to delete class files:
+[debug] 	GenMul34Verilog$.class
+[debug] 	GenMul34Verilog.class
+[debug] 	Mul34.class
+[debug] 	GenMul34Verilog$delayedInit$body.class
+[debug] 	Mul34$$anon$1.class
+[debug] We backup class files:
+[debug] 	GenMul34Verilog$.class
+[debug] 	GenMul34Verilog.class
+[debug] 	Mul34.class
+[debug] 	GenMul34Verilog$delayedInit$body.class
+[debug] 	Mul34$$anon$1.class

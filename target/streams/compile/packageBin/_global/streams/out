@@ -1,0 +1,21 @@
+[debug] Packaging /root/workspace/chisel_demo/target/scala-2.13/chisel_demo_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	GenAdder2Verilog$delayedInit$body.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/GenAdder2Verilog$delayedInit$body.class
+[debug] 	GenMul34Verilog$delayedInit$body.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/GenMul34Verilog$delayedInit$body.class
+[debug] 	GenMul34Verilog.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/GenMul34Verilog.class
+[debug] 	Adder2.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/Adder2.class
+[debug] 	GenMul34Verilog$.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/GenMul34Verilog$.class
+[debug] 	GenAdder2Verilog$.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/GenAdder2Verilog$.class
+[debug] 	GenAdder2Verilog.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/GenAdder2Verilog.class
+[debug] 	Mul34.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/Mul34.class
+[debug] 	Mul34$$anon$1.class
+[debug] 	  /root/workspace/chisel_demo/target/scala-2.13/classes/Mul34$$anon$1.class
+[debug] Done packaging.
